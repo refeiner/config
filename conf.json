@@ -1,0 +1,160 @@
+{
+    "editor.minimap.enabled": false,
+    /***** workbench settings *****/
+    "workbench.iconTheme": "material-icon-theme",
+    /***** editor settings *****/
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "editor.tabSize": 4,
+    "editor.autoIndent": "advanced",
+    /***** file settings *****/
+    "files.autoSave": "onFocusChange",
+    "files.trimTrailingWhitespace": true, // 启用后，将在保存文件时剪裁尾随空格
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.classpath": true,
+        "**/.DS_Store": true,
+        "**/.factorypath": true,
+        "**/.git": true,
+        "**/.idea": true,
+        "**/.mvn*": true,
+        "**/.settings": true,
+        "**/.svn": true,
+        "**/*.class": true,
+        "**/*.exe": true,
+        "**/*.ilk": true,
+        "**/*.obj": true,
+        "**/*.pdb": true,
+        "**/*.vs": true,
+        "**/mvnw*": true,
+        "**/.project": true,
+        "**/*.iml":true
+    },
+    "search.exclude": {
+        "**/.classpath": true,
+        "**/.DS_Store": true,
+        "**/.factorypath": true,
+        "**/.git": true,
+        "**/.idea": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.svn": true,
+        "**/*.class": true,
+        "**/*.iml": true,
+        "**/*.vs": true,
+        "**/bower_components": true,
+        "**/coverage": true,
+        "**/dist": true,
+        "**/doc": true,
+        "**/node_modules": true
+    },
+    /***** vim settings *****/
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-c>": false
+    },
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f"
+    },
+    /***** markdown settings *****/
+    "markdown.extension.toc.levels": "2..4",
+    "markdown.extension.toc.githubCompatibility": true,
+    "markdown.extension.toc.unorderedList.marker": "*",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "python.jediEnabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 0,
+    "vsicons.dontShowNewVersionMessage": true,
+    "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"c:\\Users\\refeiner\\.vscode\\extensions\\gabrielbb.vscode-lombok-1.0.1\\server\\lombok.jar\"",
+    "terminal.integrated.inheritEnv": false,
+    "terminal.integrated.rendererType": "dom",
+    "explorer.confirmDelete": false,
+    "C_Cpp.updateChannel": "Insiders",
+    "http.proxySupport": "off",
+    "vim.highlightedyank.enable": true,
+    "fileheader.customMade": {
+        "Description": "\n\n Copyright (c) 2019-2020, refeiner All rights reserved. \n",
+        "Version": "1.0",
+        "Author": "refeiner",
+        "Date": "Do not edit",
+        "LastEditors": "refeiner",
+        "LastEditTime": "Do not edit"
+    },
+    "fileheader.configObj": {
+        "autoAdd": true, // 默认开启
+        "prohibitAutoAdd": [
+            "json",
+            "md",
+            "xml",
+            "vue",
+            "html"
+        ], // 禁止.json .md文件，自动添加头部注释
+        "headInsertLine": {
+            "php": 2 // php后缀的文件，在第二行插入文件头部注释
+        },
+        "newlineAddAnnotation": true // 默认开启
+    },
+    "[sql]": {
+        "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.renderWhitespace": "all",
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "java.requirements.JDK11Warning": false,
+    "java.semanticHighlighting.enabled": true,
+    "sync.gist": "462439ca39b51fe0e685bd191b541904",
+    "guides.enabled": false,
+    "todo-tree.tree.showScanModeButton": false,
+    "python.languageServer": "Pylance",
+    "java.project.importOnFirstTimeStartup": "automatic",
+    "java.configuration.maven.userSettings": "C:\\Users\\refeiner\\.m2\\m2.settings",
+    "java.home": "D:\\software\\jdk11",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "D:\\sdks\\java-1.8.0-openjdk",
+            "default": true
+        },
+        {
+            "name": "JavaSE-11",
+            "path": "D:\\software\\jdk11"
+        }
+    ],
+    "vs-kubernetes": {
+        "vs-kubernetes.minikube-path.windows": "C:\\Users\\refeiner\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
+        "vs-kubernetes.helm-path.windows": "C:\\Users\\refeiner\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+        "vs-kubernetes.draft-path.windows": "C:\\Users\\refeiner\\.vs-kubernetes\\tools\\draft\\windows-amd64\\draft.exe",
+        "vs-kubernetes.knownKubeconfigs": [
+            "d:\\docs\\OneDrive\\Venus-docs\\mds\\编程工具\\容器\\k8sconfig.conf"
+        ],
+        "vs-kubernetes.kubeconfig": "d:\\docs\\OneDrive\\Venus-docs\\mds\\编程工具\\容器\\k8sconfig.conf"
+    },
+    "java.refactor.renameFromFileExplorer": "autoApply"
+}
